@@ -1,0 +1,70 @@
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Profile Section */
+.profile-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.profile-info h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+.profile-info p {
+  font-size: 1em;
+  color: #666;
+  max-width: 500px;
+  margin: auto;
+}
+
+/* Gallery Section */
+.gallery-section {
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.gallery-section h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 180px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
